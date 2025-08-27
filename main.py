@@ -1,4 +1,3 @@
-
 import streamlit as st 
 import pandas as pd
 import numpy as np
@@ -13,11 +12,9 @@ from streamlit_folium import folium_static
 import json
 import calendar
 
-# --------------------------------------------
-# Human-friendly labels (fix for NameError)
-# --------------------------------------------
-MONTH_NAMES = list(calendar.month_name[1:])   # ['January', ..., 'December']
-DAY_NAMES   = list(calendar.day_name)         # ['Monday', ..., 'Sunday']
+
+MONTH_NAMES = list(calendar.month_name[1:])   
+DAY_NAMES   = list(calendar.day_name)         
 
 # --------------------------------------------
 # Page config & styles
@@ -86,12 +83,26 @@ def load_data():
         'geolocation': 'olist_geolocation_dataset.csv',
         'category_translation': 'product_category_name_translation.csv'
     }
+    
+    missing_files = []
     for name, filename in files.items():
         try:
             datasets[name] = pd.read_csv(os.path.join(data_path, filename))
         except FileNotFoundError:
-            st.error(f"File not found: {filename}")
-            return None
+            missing_files.append(filename)
+    
+    if missing_files:
+        st.error("⚠️ Data files not found!")
+        st.markdown("""
+        **To run this application locally:**
+        1. Download the Olist dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+        2. Extract all CSV files to the `data/` directory
+        3. Restart the application
+        
+        **Missing files:** """ + ", ".join(missing_files))
+        st.info("This is a demonstration of the analytics platform. The code and documentation are available on GitHub.")
+        return None
+    
     return datasets
 
 @st.cache_data
