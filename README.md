@@ -13,7 +13,7 @@ This platform transforms raw e-commerce data into actionable business intelligen
 - **Strategic business recommendations** with impact-effort prioritization
 - **Interactive visualizations** and real-time analytics
 
-**🔗 Live Demo:** [Streamlit Cloud Deployment](https://eta-prediction-project.streamlit.app/)
+**🔗 Demo:** [Streamlit Cloud Deployment](https://youtu.be/Gg7Wcz1xsVo))
 
 ## 📊 **Key Features & Capabilities**
 
@@ -248,4 +248,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 ⭐ **Star this repository if you found it helpful!**
+
 
