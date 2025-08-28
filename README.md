@@ -13,7 +13,8 @@ This platform transforms raw e-commerce data into actionable business intelligen
 - **Strategic business recommendations** with impact-effort prioritization
 - **Interactive visualizations** and real-time analytics
 
-**🔗 Demo:** [Youtube](https://youtu.be/Gg7Wcz1xsVo)
+**🔗 Demo Video:** [Youtube](https://youtu.be/Gg7Wcz1xsVo)
+- [View Full Project Demo (PDF)](https://github.com/aniketsarapAI/eta-prediction-project/blob/main/ETA%20Prediction%20%26%20Logistics%20Analytics%20Platform.pdf)  
 
 ## 📊 **Key Features & Capabilities**
 
@@ -197,6 +198,7 @@ streamlit run main.py
 
 
 ⭐ **Star this repository if you found it helpful!**
+
 
 
 
