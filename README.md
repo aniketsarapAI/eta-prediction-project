@@ -193,61 +193,11 @@ streamlit run main.py
 - **Product Strategy:** Category performance optimization
 - **Resource Allocation:** Data-driven investment decisions
 
-## 📋 **Project Structure**
-```
-olist-analytics-platform/
-├── data/                          # CSV datasets (9 files)
-├── models/                        # Trained ML models
-│   └── olist_model_artifacts.pkl
-├── notebooks/                     # Jupyter analysis notebooks
-├── pages/                         # Streamlit page components
-├── utils/                         # Helper functions
-├── main.py                        # Main Streamlit application
-├── requirements.txt               # Python dependencies  
-└── README.md                      # This file
-```
 
-## 🔄 **Future Enhancements**
 
-### **Technical Roadmap**
-- [ ] **Real-time Model Updates:** Automated retraining pipeline
-- [ ] **Advanced ML Models:** Deep learning for complex patterns
-- [ ] **API Development:** RESTful endpoints for integration
-- [ ] **Database Integration:** PostgreSQL/MongoDB for scalability
-
-### **Business Features**
-- [ ] **A/B Testing Framework:** Experiment management system
-- [ ] **Alert System:** Automated notifications and reports
-- [ ] **Mobile Optimization:** Responsive design improvements
-- [ ] **Multi-language Support:** Portuguese/Spanish localization
-
-## 👨‍💻 **About the Developer**
-
-**Data Scientist & Business Analyst** with expertise in:
-- Machine Learning & Predictive Analytics
-- Business Intelligence & Strategic Planning  
-- E-commerce Analytics & Customer Intelligence
-- Interactive Dashboard Development
-
-**Technical Skills:** Python, ML/AI, Statistical Analysis, Business Strategy, Data Visualization
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 **Contributing**
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 **Contact**
-
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** your.email@example.com
-- **Portfolio:** [Your Portfolio Website]
-
----
 
 ⭐ **Star this repository if you found it helpful!**
+
 
 
 
